@@ -1,7 +1,4 @@
-//SID : 1155048424
-//NAME: NG KING SANG
-//E-mail : ngkingsang1112@gmail.com
-//
+//CUHK CSCI1120 assignment 3
 #include <stdio.h>
 #include <iostream>
 using namespace std;
