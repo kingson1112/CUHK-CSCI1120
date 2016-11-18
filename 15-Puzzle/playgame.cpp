@@ -1,8 +1,3 @@
-// name: Ng King Sang
-// SID : 1155048424
-// email : ngkingsang1112@gmail.com
-// assignment 4 (CUHK - CSCI1120_2016_FALL)
-
 
 #include <iostream>
 #include <cstdlib>
