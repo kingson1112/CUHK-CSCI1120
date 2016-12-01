@@ -45,7 +45,7 @@ int main(int argc, char const *argv[]) {
         //  std::cout << x << '\n';
         staffs[i]->setSalary(j,stod(x));
       }
-    }else if(strcmp(x.c_str(),"CS") == 0){
+    }else if(strcmp(x,"CS") == 0){
       fin >> x;
       //  std::cout << x << '\n';
       staffs[i] = new ContractStaff(x);
