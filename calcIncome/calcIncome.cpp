@@ -45,7 +45,7 @@ int main(int argc, char const *argv[]) {
         //  std::cout << x << '\n';
         staffs[i]->setSalary(j,stod(x));
       }
-    }else if(strcmp(x,"CS") == 0){
+    }else if(x == "CS"){
       fin >> x;
       //  std::cout << x << '\n';
       staffs[i] = new ContractStaff(x);
@@ -79,7 +79,7 @@ int main(int argc, char const *argv[]) {
       std::cout << "Eligible" << '\n';
     }else std::cout << "Ineligible" << '\n';
   }
-
+  for(int j = 0; j < n; j ++) delete staffs[j];
   //std::cout << staffs[0]->annualIncome() << '\n';
   return 0;
 }
